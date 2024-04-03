@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container1{
+    background-color: rgb(70, 70, 21);
+    padding: 50px;
+    margin: 100px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    /* padding: 20px; */
+}
+
+ .container2 img{
+    height: 500px;
+    margin-left: -30px;
+    border-radius: 15px 0 0 15px;
+
+    /* width: 20%; */
+}
+
+.container2 .text_container{
+    margin-top: 10px;
+    margin-left: 25px;
+  
+    /* line-height: 40px; */
+}
+
+.container2 .text_container .title{
+    color: rgb(235, 217, 114);
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.container2 .text_container .content_head{
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.container2 .text_container p{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.container2 .text_container .price{
+    margin-top: 20px;
+}
+
+.container2 .text_container .price .span1{
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container2 .text_container .add-to-cart{
+    margin-top: 20px;
+}
+
+.container2 .text_container .add-to-cart button{
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 10px;
+    width: 15rem;
+    cursor: pointer;
+}
